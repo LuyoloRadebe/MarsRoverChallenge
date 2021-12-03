@@ -2,15 +2,18 @@
 
 ## SET UP
 Ensure you have ruby installed on your machine
+
 `$ gem install ruby2d`
+
 `$ bundle install`
 
-##TODO
+## TODO
 - Best way to input & parse user text in a GUI format? For now the instructions are hardcoded in the initial structure and give an accurate result but I would like a real time interface wherein the user can insert rover instructions
--  Best way to implement spec tests and what edge cases to test? Throw an exception when:
+-  Best way to implement rspec tests and what edge cases to test? Throw an exception when:
 -- Instructions go outside the boundaries of the given plateau
 -- Instruction format includes invalid characters outside of numericals, LRM and NSEW
-## RESOURCES USED
+
+## PROJECT SUMMARY
 Mars Rover Technical Challenge
 The problem below requires some kind of input. You are free to implement any mechanism for feeding input into your solution (for example, using hard coded data within a unit test). You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works correctly against the supplied test data.
 
@@ -36,11 +39,12 @@ Output:
 The output for each rover should be its final co-ordinates and heading.
 
 Test Input:
-PLATEAU SIZE: 5 5
-ROVER 1 POSITION AND ORIENTATION: 1 2 N
-ROVER 1 INSTRUCTIONS: LMLMLMLMM
-ROVER 2 POSITION AND ORIENTATION:3 3 E
-ROVER 2 INSTRUCTIONS: MMRMMRMRRM
+5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+
 Expected Output:
 1 3 N
 5 1 E
