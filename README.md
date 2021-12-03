@@ -7,6 +7,10 @@ Ensure you have ruby installed on your machine
 
 `$ bundle install`
 
+To run the application (ensure you're in the project root directory):
+
+`$ ruby main.rb`
+
 ## TODO
 - Best way to input & parse user text in a GUI format? For now the instructions are hardcoded in the initial structure and give an accurate result but I would like a real time interface wherein the user can insert rover instructions
 -  Best way to implement rspec tests and what edge cases to test? Throw an exception when:
